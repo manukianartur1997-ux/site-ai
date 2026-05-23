@@ -1,15 +1,16 @@
 # Import Notes
 
-The local source folder is:
+The local source folder was:
 
 `/Users/arturmanukan/Documents/Codex/2026-04-24/new-chat/landing-preview`
 
-The repository was initialized through the GitHub connector because the local terminal currently cannot reach GitHub (`Could not resolve host: github.com`).
+The repository was initialized through the GitHub connector because the local terminal could not reach GitHub (`Could not resolve host: github.com`).
 
 ## Uploaded through connector
 
 - `README.md`
 - `.gitignore`
+- `index.html`
 - `lead-config.js`
 - `_headers`
 - `robots.txt`
@@ -21,12 +22,19 @@ The repository was initialized through the GitHub connector because the local te
 - `cloudflare/wrangler.example.toml`
 - `cloudflare/wrangler.toml`
 
-## Not uploaded yet
+## Important note about `index.html`
 
-The following files are present locally but were too large to safely move through the connector in this session:
+The old local `index.html` was about 236 KB and looked more like a broad portfolio plan. Instead of copying it 1:1, this repo now contains a cleaner working landing page that applies the current product direction:
 
-- `index.html` — about 236 KB
-- `landing-preview-check.js` — about 120 KB
+1. Artur's site is the trust layer for AI/automation work.
+2. CallControl AI is shown as the first live product/case.
+3. Empty proof claims and dead CTA patterns are avoided.
+4. UA/RU/EN switching is kept simple.
+5. The lead form remains connected through `lead-config.js`.
+
+## Not uploaded
+
+- `landing-preview-check.js` — about 120 KB, not required for the public static site.
 
 ## Excluded intentionally
 
@@ -36,12 +44,4 @@ The following files are present locally but were too large to safely move throug
 
 ## Next step
 
-Upload `index.html` from the local folder into the repository root. Optional: upload `landing-preview-check.js` if we want to preserve the generated translation/check source.
-
-After `index.html` is in the repo, we can start applying the Claude feedback:
-
-1. Convert the site from generic AI portfolio to proof-driven AI systems/CallControl entry point.
-2. Add CallControl as the first live product/case.
-3. Remove dead CTAs and empty proof blocks.
-4. Make UA/RU/EN routing cleaner.
-5. Use the site as Artur's main trust layer, not a separate disconnected funnel.
+Use this repository as the editable source for `ai.manukianartur1997.workers.dev` and continue improving the public positioning from here.
