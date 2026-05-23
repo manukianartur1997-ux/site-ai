@@ -1,0 +1,11 @@
+name = "artur-manukian-leads"
+main = "telegram-leads-worker.js"
+compatibility_date = "2026-04-27"
+
+[vars]
+# Optional public origin if you want to limit CORS later
+PUBLIC_SITE_ORIGIN = "https://your-domain.example"
+
+# Set these as secrets in Cloudflare, not in the file:
+# TELEGRAM_BOT_TOKEN
+# TELEGRAM_CHAT_ID
