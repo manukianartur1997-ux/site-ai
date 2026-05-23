@@ -1,0 +1,6 @@
+name = "artur-manukian-leads"
+main = "telegram-leads-worker.js"
+compatibility_date = "2026-04-28"
+
+[vars]
+PUBLIC_SITE_ORIGIN = "https://your-domain.example"
