@@ -1,0 +1,7 @@
+name = "ai"
+main = "worker.js"
+compatibility_date = "2026-05-28"
+
+[assets]
+directory = "."
+binding = "ASSETS"
